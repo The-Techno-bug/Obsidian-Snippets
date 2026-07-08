@@ -13,7 +13,7 @@
 /* Dropping text shadow to make text glow*/
 
 .nav-files-container{
-    text-shadow: 0px 0px 4px;
+    text-shadow: 0px 0px 3px;
 }
 
 
@@ -67,4 +67,12 @@
     --nav-item-background-active: color-mix(in srgb, var(--dashboard-color) var(--hover-blend), transparent);
     --nav-item-color-hover: color-mix(in srgb, var(--dashboard-color) var(--text-hover-blend), #FFFFFF);
     --nav-item-color-active: color-mix(in srgb, var(--dashboard-color) var(--text-hover-blend), #FFFFFF);
+}
+
+.nav-file-title{
+    --nav-item-color: color-mix(in srgb, #FFFFFF 80%, transparent)
+}
+
+.mod-horizontal {
+    --background-secondary: #161616;
 }
